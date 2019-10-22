@@ -1,0 +1,497 @@
+<!-- 头部-->
+<div class="leo-head leo-head-bg-o" style="top: 0px;">
+	<div class="leo-head-nav">
+		<div id="leo-head-nav-wrap" class="leo-head-nav-wrap swiper-container-horizontal swiper-container-free-mode">
+			<ul class="swiper-wrapper clearfix">
+				<li class="leo-btn swiper-slide active o swiper-slide-active" id="tab1" onclick="myclick(1)">央视频道</li>
+				<li class="leo-btn swiper-slide" id="tab2" onclick="myclick(2)">卫视频道</li>
+				<li class="leo-btn swiper-slide" id="tab3" onclick="myclick(3)">轮播频道</li>
+			</ul>
+		</div>
+	</div>
+</div>
+<!--CCTV-->
+<div class="tab_css" id="tab1_content" style="display: block; margin-top:50px;">
+	<div class="leo-list-body" id="tvlist1">
+		<ul class="leo-list-item">
+			<li class="leo-list-item-2" onclick="openWin('http://ivi.bupt.edu.cn/hls/cctv1hd.m3u8')">
+				<div class="leo-list-item-pic leo-list-item-2-pic">
+					<img src="https://gitee.com/Addiction/simple_collection/raw/master/images/cctv1.png" onerror="imgerrorfun();" >
+					<div class="leo-list-item-tips leo-bg-color-o ">高清</div>
+				</div>
+				<div class="leo-list-item-txt">
+					<span class="leo-list-item-title leo-ellipsis">CCTV 1 综合</span></div>
+			</li>
+			<li class="leo-list-item-2" onclick="openWin('http://ivi.bupt.edu.cn/hls/cctv2.m3u8')">
+				<div class="leo-list-item-pic leo-list-item-2-pic">
+					<img src="https://gitee.com/Addiction/simple_collection/raw/master/images/cctv2.png" onerror="imgerrorfun();" ></div>
+				<div class="leo-list-item-txt">
+					<span class="leo-list-item-title leo-ellipsis">CCTV 2 财经</span></div>
+			</li>
+			<li class="leo-list-item-2" onclick="openWin('http://ivi.bupt.edu.cn/hls/cctv3hd.m3u8')">
+				<div class="leo-list-item-pic leo-list-item-2-pic">
+					<img src="https://gitee.com/Addiction/simple_collection/raw/master/images/cctv3.png" onerror="imgerrorfun();" >
+					<div class="leo-list-item-tips leo-bg-color-o ">高清</div>
+				</div>
+				<div class="leo-list-item-txt">
+					<span class="leo-list-item-title leo-ellipsis">CCTV 3 综艺</span></div>
+			</li>
+			<li class="leo-list-item-2" onclick="openWin('http://ivi.bupt.edu.cn/hls/cctv4.m3u8')">
+				<div class="leo-list-item-pic leo-list-item-2-pic">
+					<img src="https://gitee.com/Addiction/simple_collection/raw/master/images/cctv4.png" onerror="imgerrorfun();" ></div>
+				<div class="leo-list-item-txt">
+					<span class="leo-list-item-title leo-ellipsis">CCTV 4 中文国际</span></div>
+			</li>
+			<li class="leo-list-item-2" onclick="openWin('http://ivi.bupt.edu.cn/hls/cctv5phd.m3u8')">
+				<div class="leo-list-item-pic leo-list-item-2-pic">
+					<img src="https://gitee.com/Addiction/simple_collection/raw/master/images/cctv5s.png" onerror="imgerrorfun();" >
+					<div class="leo-list-item-tips leo-bg-color-o ">高清</div>
+				</div>
+				<div class="leo-list-item-txt">
+					<span class="leo-list-item-title leo-ellipsis">CCTV 5+ 体育</span></div>
+			</li>
+			<li class="leo-list-item-2" onclick="openWin('http://ivi.bupt.edu.cn/hls/cctv6hd.m3u8')">
+				<div class="leo-list-item-pic leo-list-item-2-pic">
+					<img src="https://gitee.com/Addiction/simple_collection/raw/master/images/cctv6.png" onerror="imgerrorfun();" >
+					<div class="leo-list-item-tips leo-bg-color-o ">高清</div>
+				</div>
+				<div class="leo-list-item-txt">
+					<span class="leo-list-item-title leo-ellipsis">CCTV 6 电影</span></div>
+			</li>
+			<li class="leo-list-item-2" onclick="openWin('http://ivi.bupt.edu.cn/hls/cctv7.m3u8')">
+				<div class="leo-list-item-pic leo-list-item-2-pic">
+					<img src="https://gitee.com/Addiction/simple_collection/raw/master/images/cctv7.png" onerror="imgerrorfun();" ></div>
+				<div class="leo-list-item-txt">
+					<span class="leo-list-item-title leo-ellipsis">CCTV 7 军事·农业</span></div>
+			</li>
+			<li class="leo-list-item-2" onclick="openWin('http://ivi.bupt.edu.cn/hls/cctv8hd.m3u8')">
+				<div class="leo-list-item-pic leo-list-item-2-pic">
+					<img src="https://gitee.com/Addiction/simple_collection/raw/master/images/cctv8.png" onerror="imgerrorfun();" >
+					<div class="leo-list-item-tips leo-bg-color-o ">高清</div>
+				</div>
+				<div class="leo-list-item-txt">
+					<span class="leo-list-item-title leo-ellipsis">CCTV 8 电视剧</span></div>
+			</li>
+			<li class="leo-list-item-2" onclick="openWin('http://ivi.bupt.edu.cn/hls/cctv9.m3u8')">
+				<div class="leo-list-item-pic leo-list-item-2-pic">
+					<img src="https://gitee.com/Addiction/simple_collection/raw/master/images/cctv9.png" onerror="imgerrorfun();" ></div>
+				<div class="leo-list-item-txt">
+					<span class="leo-list-item-title leo-ellipsis">CCTV 9 记录</span></div>
+			</li>
+			<li class="leo-list-item-2" onclick="openWin('http://ivi.bupt.edu.cn/hls/cctv10.m3u8')">
+				<div class="leo-list-item-pic leo-list-item-2-pic">
+					<img src="https://gitee.com/Addiction/simple_collection/raw/master/images/cctv10.png" onerror="imgerrorfun();" ></div>
+				<div class="leo-list-item-txt">
+					<span class="leo-list-item-title leo-ellipsis">CCTV 10 科教</span></div>
+			</li>
+			<li class="leo-list-item-2" onclick="openWin('http://ivi.bupt.edu.cn/hls/cctv11.m3u8')">
+				<div class="leo-list-item-pic leo-list-item-2-pic">
+					<img src="https://gitee.com/Addiction/simple_collection/raw/master/images/cctv11.png" onerror="imgerrorfun();" ></div>
+				<div class="leo-list-item-txt">
+					<span class="leo-list-item-title leo-ellipsis">CCTV 11 戏剧</span></div>
+			</li>
+			<li class="leo-list-item-2" onclick="openWin('http://ivi.bupt.edu.cn/hls/cctv12.m3u8')">
+				<div class="leo-list-item-pic leo-list-item-2-pic">
+					<img src="https://gitee.com/Addiction/simple_collection/raw/master/images/cctv12.png" onerror="imgerrorfun();" ></div>
+				<div class="leo-list-item-txt">
+					<span class="leo-list-item-title leo-ellipsis">CCTV 12 社会与法</span></div>
+			</li>
+			<li class="leo-list-item-2" onclick="openWin('http://ivi.bupt.edu.cn/hls/cctv13.m3u8')">
+				<div class="leo-list-item-pic leo-list-item-2-pic">
+					<img src="https://gitee.com/Addiction/simple_collection/raw/master/images/cctv13.png" onerror="imgerrorfun();" ></div>
+				<div class="leo-list-item-txt">
+					<span class="leo-list-item-title leo-ellipsis">CCTV 13 新闻</span></div>
+			</li>
+			<li class="leo-list-item-2" onclick="openWin('http://ivi.bupt.edu.cn/hls/cctv14.m3u8')">
+				<div class="leo-list-item-pic leo-list-item-2-pic">
+					<img src="https://gitee.com/Addiction/simple_collection/raw/master/images/cctv14.png" onerror="imgerrorfun();" ></div>
+				<div class="leo-list-item-txt">
+					<span class="leo-list-item-title leo-ellipsis">CCTV 14 少儿</span></div>
+			</li>
+			<li class="leo-list-item-2" onclick="openWin('http://ivi.bupt.edu.cn/hls/cctv15.m3u8')">
+				<div class="leo-list-item-pic leo-list-item-2-pic">
+					<img src="https://gitee.com/Addiction/simple_collection/raw/master/images/cctv15.png" onerror="imgerrorfun();" ></div>
+				<div class="leo-list-item-txt">
+					<span class="leo-list-item-title leo-ellipsis">CCTV 15 音乐</span></div>
+			</li>
+		</ul>
+	</div>
+</div>
+<!--卫视-->
+<div class="tab_css" id="tab2_content">
+	<div class="leo-list-body" id="content" id="tvlist2" style="margin-top:50px;">
+		<ul class="leo-list-item">
+			<li class="leo-list-item-2" onclick="openWin('http://ivi.bupt.edu.cn/hls/chchd.m3u8')">
+				<div class="leo-list-item-pic leo-list-item-2-pic">
+					<img src="../images/cctv1.png" onerror="imgerrorfun();" ></div>
+				<div class="leo-list-item-txt">
+					<span class="leo-list-item-title leo-ellipsis">CHC高清电影</span></div>
+			</li>
+			<li class="leo-list-item-2" onclick="openWin('http://ivi.bupt.edu.cn/hls/btv1hd.m3u8')">
+				<div class="leo-list-item-pic leo-list-item-2-pic">
+					<img src="https://gitee.com/Addiction/simple_collection/raw/master/images/bj.png" onerror="imgerrorfun();" >
+					<div class="leo-list-item-tips leo-bg-color-o ">高清</div>
+				</div>
+				<div class="leo-list-item-txt">
+					<span class="leo-list-item-title leo-ellipsis">北京卫视</span></div>
+			</li>
+			<li class="leo-list-item-2" onclick="openWin('http://ivi.bupt.edu.cn/hls/btv2hd.m3u8')">
+				<div class="leo-list-item-pic leo-list-item-2-pic">
+					<img src="https://gitee.com/Addiction/simple_collection/raw/master/images/bj.png" onerror="imgerrorfun();" >
+					<div class="leo-list-item-tips leo-bg-color-o ">高清</div>
+				</div>
+				<div class="leo-list-item-txt">
+					<span class="leo-list-item-title leo-ellipsis">北京文艺</span></div>
+			</li>
+			<li class="leo-list-item-2" onclick="openWin('http://ivi.bupt.edu.cn/hls/btv11hd.m3u8')">
+				<div class="leo-list-item-pic leo-list-item-2-pic">
+					<img src="https://gitee.com/Addiction/simple_collection/raw/master/images/bj.png" onerror="imgerrorfun();" >
+					<div class="leo-list-item-tips leo-bg-color-o ">高清</div>
+				</div>
+				<div class="leo-list-item-txt">
+					<span class="leo-list-item-title leo-ellipsis">北京纪实</span></div>
+			</li>
+			<li class="leo-list-item-2" onclick="openWin('http://ivi.bupt.edu.cn/hls/btv3.m3u8')">
+				<div class="leo-list-item-pic leo-list-item-2-pic">
+					<img src="https://gitee.com/Addiction/simple_collection/raw/master/images/bj.png" onerror="imgerrorfun();" ></div>
+				<div class="leo-list-item-txt">
+					<span class="leo-list-item-title leo-ellipsis">北京科教</span></div>
+			</li>
+			<li class="leo-list-item-2" onclick="openWin('http://ivi.bupt.edu.cn/hls/btv4.m3u8')">
+				<div class="leo-list-item-pic leo-list-item-2-pic">
+					<img src="https://gitee.com/Addiction/simple_collection/raw/master/images/bj.png" onerror="imgerrorfun();" >
+					<div class="leo-list-item-tips leo-bg-color-o ">高清</div>
+				</div>
+				<div class="leo-list-item-txt">
+					<span class="leo-list-item-title leo-ellipsis">北京影视</span></div>
+			</li>
+			<li class="leo-list-item-2" onclick="openWin('http://ivi.bupt.edu.cn/hls/btv5.m3u8')">
+				<div class="leo-list-item-pic leo-list-item-2-pic">
+					<img src="https://gitee.com/Addiction/simple_collection/raw/master/images/bj.png" onerror="imgerrorfun();" ></div>
+				<div class="leo-list-item-txt">
+					<span class="leo-list-item-title leo-ellipsis">北京财经</span></div>
+			</li>
+			<li class="leo-list-item-2" onclick="openWin('http://ivi.bupt.edu.cn/hls/btv7.m3u8')">
+				<div class="leo-list-item-pic leo-list-item-2-pic">
+					<img src="https://gitee.com/Addiction/simple_collection/raw/master/images/bj.png" onerror="imgerrorfun();" ></div>
+				<div class="leo-list-item-txt">
+					<span class="leo-list-item-title leo-ellipsis">北京生活</span></div>
+			</li>
+			<li class="leo-list-item-2" onclick="openWin('http://ivi.bupt.edu.cn/hls/btv8.m3u8')">
+				<div class="leo-list-item-pic leo-list-item-2-pic">
+					<img src="https://gitee.com/Addiction/simple_collection/raw/master/images/bj.png" onerror="imgerrorfun();" ></div>
+				<div class="leo-list-item-txt">
+					<span class="leo-list-item-title leo-ellipsis">北京青年</span></div>
+			</li>
+			<li class="leo-list-item-2" onclick="openWin('http://ivi.bupt.edu.cn/hls/btv9.m3u8')">
+				<div class="leo-list-item-pic leo-list-item-2-pic">
+					<img src="https://gitee.com/Addiction/simple_collection/raw/master/images/bj.png" onerror="imgerrorfun();" ></div>
+				<div class="leo-list-item-txt">
+					<span class="leo-list-item-title leo-ellipsis">北京新闻</span></div>
+			</li>
+			<li class="leo-list-item-2" onclick="openWin('http://ivi.bupt.edu.cn/hls/btv10.m3u8')">
+				<div class="leo-list-item-pic leo-list-item-2-pic">
+					<img src="https://gitee.com/Addiction/simple_collection/raw/master/images/bj.png" onerror="imgerrorfun();" ></div>
+				<div class="leo-list-item-txt">
+					<span class="leo-list-item-title leo-ellipsis">北京卡酷少儿</span></div>
+			</li>
+			<li class="leo-list-item-2" onclick="openWin('http://ivi.bupt.edu.cn/hls/hunanhd.m3u8')">
+				<div class="leo-list-item-pic leo-list-item-2-pic">
+					<img src="https://gitee.com/Addiction/simple_collection/raw/master/images/hun.png" onerror="imgerrorfun();" >
+					<div class="leo-list-item-tips leo-bg-color-o ">高清</div>
+				</div>
+				<div class="leo-list-item-txt">
+					<span class="leo-list-item-title leo-ellipsis">湖南卫视</span></div>
+			</li>
+			<li class="leo-list-item-2" onclick="openWin('http://ivi.bupt.edu.cn/hls/zjhd.m3u8')">
+				<div class="leo-list-item-pic leo-list-item-2-pic">
+					<img src="https://gitee.com/Addiction/simple_collection/raw/master/images/zj.png" onerror="imgerrorfun();" >
+					<div class="leo-list-item-tips leo-bg-color-o ">高清</div>
+				</div>
+				<div class="leo-list-item-txt">
+					<span class="leo-list-item-title leo-ellipsis">浙江卫视</span></div>
+			</li>
+			<li class="leo-list-item-2" onclick="openWin('http://ivi.bupt.edu.cn/hls/jshd.m3u8')">
+				<div class="leo-list-item-pic leo-list-item-2-pic">
+					<img src="https://gitee.com/Addiction/simple_collection/raw/master/images/js.png" onerror="imgerrorfun();" >
+					<div class="leo-list-item-tips leo-bg-color-o ">高清</div>
+				</div>
+				<div class="leo-list-item-txt">
+					<span class="leo-list-item-title leo-ellipsis">江苏卫视</span></div>
+			</li>
+			<li class="leo-list-item-2" onclick="openWin('http://ivi.bupt.edu.cn/hls/dfhd.m3u8')">
+				<div class="leo-list-item-pic leo-list-item-2-pic">
+					<img src="https://gitee.com/Addiction/simple_collection/raw/master/images/df.png" onerror="imgerrorfun();" >
+					<div class="leo-list-item-tips leo-bg-color-o ">高清</div>
+				</div>
+				<div class="leo-list-item-txt">
+					<span class="leo-list-item-title leo-ellipsis">东方卫视</span></div>
+			</li>
+			<li class="leo-list-item-2" onclick="openWin('http://ivi.bupt.edu.cn/hls/ahhd.m3u8')">
+				<div class="leo-list-item-pic leo-list-item-2-pic">
+					<img src="https://gitee.com/Addiction/simple_collection/raw/master/images/ah.png" onerror="imgerrorfun();" >
+					<div class="leo-list-item-tips leo-bg-color-o ">高清</div>
+				</div>
+				<div class="leo-list-item-txt">
+					<span class="leo-list-item-title leo-ellipsis">安徽卫视</span></div>
+			</li>
+			<li class="leo-list-item-2" onclick="openWin('http://ivi.bupt.edu.cn/hls/hljhd.m3u8')">
+				<div class="leo-list-item-pic leo-list-item-2-pic">
+					<img src="https://gitee.com/Addiction/simple_collection/raw/master/images/hlj.png" onerror="imgerrorfun();" >
+					<div class="leo-list-item-tips leo-bg-color-o ">高清</div>
+				</div>
+				<div class="leo-list-item-txt">
+					<span class="leo-list-item-title leo-ellipsis">黑龙江卫视</span></div>
+			</li>
+			<li class="leo-list-item-2" onclick="openWin('http://ivi.bupt.edu.cn/hls/lnhd.m3u8')">
+				<div class="leo-list-item-pic leo-list-item-2-pic">
+					<img src="https://gitee.com/Addiction/simple_collection/raw/master/images/ln.png" onerror="imgerrorfun();" >
+					<div class="leo-list-item-tips leo-bg-color-o ">高清</div>
+				</div>
+				<div class="leo-list-item-txt">
+					<span class="leo-list-item-title leo-ellipsis">辽宁卫视</span></div>
+			</li>
+			<li class="leo-list-item-2" onclick="openWin('http://ivi.bupt.edu.cn/hls/szhd.m3u8')">
+				<div class="leo-list-item-pic leo-list-item-2-pic">
+					<img src="https://gitee.com/Addiction/simple_collection/raw/master/images/sz.png" onerror="imgerrorfun();" >
+					<div class="leo-list-item-tips leo-bg-color-o ">高清</div>
+				</div>
+				<div class="leo-list-item-txt">
+					<span class="leo-list-item-title leo-ellipsis">深圳卫视</span></div>
+			</li>
+			<li class="leo-list-item-2" onclick="openWin('http://ivi.bupt.edu.cn/hls/gdhd.m3u8')">
+				<div class="leo-list-item-pic leo-list-item-2-pic">
+					<img src="https://gitee.com/Addiction/simple_collection/raw/master/images/gd.png" onerror="imgerrorfun();" >
+					<div class="leo-list-item-tips leo-bg-color-o ">高清</div>
+				</div>
+				<div class="leo-list-item-txt">
+					<span class="leo-list-item-title leo-ellipsis">广东卫视</span></div>
+			</li>
+			<li class="leo-list-item-2" onclick="openWin('http://ivi.bupt.edu.cn/hls/tjhd.m3u8')">
+				<div class="leo-list-item-pic leo-list-item-2-pic">
+					<img src="https://gitee.com/Addiction/simple_collection/raw/master/images/tj.png" onerror="imgerrorfun();" >
+					<div class="leo-list-item-tips leo-bg-color-o ">高清</div>
+				</div>
+				<div class="leo-list-item-txt">
+					<span class="leo-list-item-title leo-ellipsis">天津卫视</span></div>
+			</li>
+			<li class="leo-list-item-2" onclick="openWin('http://ivi.bupt.edu.cn/hls/sdhd.m3u8')">
+				<div class="leo-list-item-pic leo-list-item-2-pic">
+					<img src="https://gitee.com/Addiction/simple_collection/raw/master/images/sd.png" onerror="imgerrorfun();" >
+					<div class="leo-list-item-tips leo-bg-color-o ">高清</div>
+				</div>
+				<div class="leo-list-item-txt">
+					<span class="leo-list-item-title leo-ellipsis">山东卫视</span></div>
+			</li>
+			<li class="leo-list-item-2" onclick="openWin('http://ivi.bupt.edu.cn/hls/cqhd.m3u8')">
+				<div class="leo-list-item-pic leo-list-item-2-pic">
+					<img src="https://gitee.com/Addiction/simple_collection/raw/master/images/cq.png" onerror="imgerrorfun();" >
+					<div class="leo-list-item-tips leo-bg-color-o ">高清</div>
+				</div>
+				<div class="leo-list-item-txt">
+					<span class="leo-list-item-title leo-ellipsis">重庆卫视</span></div>
+			</li>
+			<li class="leo-list-item-2" onclick="openWin('http://ivi.bupt.edu.cn/hls/hntv.m3u8')">
+				<div class="leo-list-item-pic leo-list-item-2-pic">
+					<img src="https://gitee.com/Addiction/simple_collection/raw/master/images/hen.png" onerror="imgerrorfun();" ></div>
+				<div class="leo-list-item-txt">
+					<span class="leo-list-item-title leo-ellipsis">河南卫视</span></div>
+			</li>
+			<li class="leo-list-item-2" onclick="openWin('http://ivi.bupt.edu.cn/hls/sxtv.m3u8')">
+				<div class="leo-list-item-pic leo-list-item-2-pic">
+					<img src="https://gitee.com/Addiction/simple_collection/raw/master/images/shx.png" onerror="imgerrorfun();" ></div>
+				<div class="leo-list-item-txt">
+					<span class="leo-list-item-title leo-ellipsis">陕西卫视</span></div>
+			</li>
+			<li class="leo-list-item-2" onclick="openWin('http://ivi.bupt.edu.cn/hls/jltv.m3u8')">
+				<div class="leo-list-item-pic leo-list-item-2-pic">
+					<img src="https://gitee.com/Addiction/simple_collection/raw/master/images/jl.png" onerror="imgerrorfun();" ></div>
+				<div class="leo-list-item-txt">
+					<span class="leo-list-item-title leo-ellipsis">吉林卫视</span></div>
+			</li>
+			<li class="leo-list-item-2" onclick="openWin('http://ivi.bupt.edu.cn/hls/gxtv.m3u8')">
+				<div class="leo-list-item-pic leo-list-item-2-pic">
+					<img src="https://gitee.com/Addiction/simple_collection/raw/master/images/gx.png" onerror="imgerrorfun();" ></div>
+				<div class="leo-list-item-txt">
+					<span class="leo-list-item-title leo-ellipsis">广西卫视</span></div>
+			</li>
+			<li class="leo-list-item-2" onclick="openWin('http://ivi.bupt.edu.cn/hls/hebtv.m3u8')">
+				<div class="leo-list-item-pic leo-list-item-2-pic">
+					<img src="https://gitee.com/Addiction/simple_collection/raw/master/images/heb.png" onerror="imgerrorfun();" ></div>
+				<div class="leo-list-item-txt">
+					<span class="leo-list-item-title leo-ellipsis">河北卫视</span></div>
+			</li>
+			<li class="leo-list-item-2" onclick="openWin('http://ivi.bupt.edu.cn/hls/xztv.m3u8')">
+				<div class="leo-list-item-pic leo-list-item-2-pic">
+					<img src="https://gitee.com/Addiction/simple_collection/raw/master/images/xz.png" onerror="imgerrorfun();" ></div>
+				<div class="leo-list-item-txt">
+					<span class="leo-list-item-title leo-ellipsis">西藏卫视</span></div>
+			</li>
+			<li class="leo-list-item-2" onclick="openWin('http://ivi.bupt.edu.cn/hls/nmtv.m3u8')">
+				<div class="leo-list-item-pic leo-list-item-2-pic">
+					<img src="https://gitee.com/Addiction/simple_collection/raw/master/images/nmg.png" onerror="imgerrorfun();" ></div>
+				<div class="leo-list-item-txt">
+					<span class="leo-list-item-title leo-ellipsis">内蒙古卫视</span></div>
+			</li>
+			<li class="leo-list-item-2" onclick="openWin('http://ivi.bupt.edu.cn/hls/qhtv.m3u8')">
+				<div class="leo-list-item-pic leo-list-item-2-pic">
+					<img src="https://gitee.com/Addiction/simple_collection/raw/master/images/qh.png" onerror="imgerrorfun();" ></div>
+				<div class="leo-list-item-txt">
+					<span class="leo-list-item-title leo-ellipsis">青海卫视</span></div>
+			</li>
+			<li class="leo-list-item-2" onclick="openWin('http://ivi.bupt.edu.cn/hls/sctv.m3u8')">
+				<div class="leo-list-item-pic leo-list-item-2-pic">
+					<img src="https://gitee.com/Addiction/simple_collection/raw/master/images/sc.png" onerror="imgerrorfun();" ></div>
+				<div class="leo-list-item-txt">
+					<span class="leo-list-item-title leo-ellipsis">四川卫视</span></div>
+			</li>
+			<li class="leo-list-item-2" onclick="openWin('http://ivi.bupt.edu.cn/hls/sxrtv.m3u8')">
+				<div class="leo-list-item-pic leo-list-item-2-pic">
+					<img src="https://gitee.com/Addiction/simple_collection/raw/master/images/sx.png" onerror="imgerrorfun();" ></div>
+				<div class="leo-list-item-txt">
+					<span class="leo-list-item-title leo-ellipsis">山西卫视</span></div>
+			</li>
+			<li class="leo-list-item-2" onclick="openWin('http://ivi.bupt.edu.cn/hls/xmtv.m3u8')">
+				<div class="leo-list-item-pic leo-list-item-2-pic">
+					<img src="https://gitee.com/Addiction/simple_collection/raw/master/images/xm.png" onerror="imgerrorfun();" ></div>
+				<div class="leo-list-item-txt">
+					<span class="leo-list-item-title leo-ellipsis">厦门卫视</span></div>
+			</li>
+			<li class="leo-list-item-2" onclick="openWin('http://ivi.bupt.edu.cn/hls/xjtv.m3u8')">
+				<div class="leo-list-item-pic leo-list-item-2-pic">
+					<img src="https://gitee.com/Addiction/simple_collection/raw/master/images/xj.png" onerror="imgerrorfun();" ></div>
+				<div class="leo-list-item-txt">
+					<span class="leo-list-item-title leo-ellipsis">新疆卫视</span></div>
+			</li>
+			<li class="leo-list-item-2" onclick="openWin('http://ivi.bupt.edu.cn/hls/yntv.m3u8')">
+				<div class="leo-list-item-pic leo-list-item-2-pic">
+					<img src="https://gitee.com/Addiction/simple_collection/raw/master/images/yn.png" onerror="imgerrorfun();" ></div>
+				<div class="leo-list-item-txt">
+					<span class="leo-list-item-title leo-ellipsis">云南卫视</span></div>
+			</li>
+			<li class="leo-list-item-2" onclick="openWin('http://ivi.bupt.edu.cn/hls/jxtv.m3u8')">
+				<div class="leo-list-item-pic leo-list-item-2-pic">
+					<img src="https://gitee.com/Addiction/simple_collection/raw/master/images/jx.png" onerror="imgerrorfun();" ></div>
+				<div class="leo-list-item-txt">
+					<span class="leo-list-item-title leo-ellipsis">江西卫视</span></div>
+			</li>
+			<li class="leo-list-item-2" onclick="openWin('http://ivi.bupt.edu.cn/hls/dntv.m3u8')">
+				<div class="leo-list-item-pic leo-list-item-2-pic">
+					<img src="https://gitee.com/Addiction/simple_collection/raw/master/images/dn.png" onerror="imgerrorfun();" ></div>
+				<div class="leo-list-item-txt">
+					<span class="leo-list-item-title leo-ellipsis">福建东南卫视</span></div>
+			</li>
+			<li class="leo-list-item-2" onclick="openWin('http://ivi.bupt.edu.cn/hls/gztv.m3u8')">
+				<div class="leo-list-item-pic leo-list-item-2-pic">
+					<img src="https://gitee.com/Addiction/simple_collection/raw/master/images/gz.png" onerror="imgerrorfun();" ></div>
+				<div class="leo-list-item-txt">
+					<span class="leo-list-item-title leo-ellipsis">贵州卫视</span></div>
+			</li>
+			<li class="leo-list-item-2" onclick="openWin('http://ivi.bupt.edu.cn/hls/nxtv.m3u8')">
+				<div class="leo-list-item-pic leo-list-item-2-pic">
+					<img src="https://gitee.com/Addiction/simple_collection/raw/master/images/nx.png" onerror="imgerrorfun();" ></div>
+				<div class="leo-list-item-txt">
+					<span class="leo-list-item-title leo-ellipsis">宁夏卫视</span></div>
+			</li>
+			<li class="leo-list-item-2" onclick="openWin('http://ivi.bupt.edu.cn/hls/gstv.m3u8')">
+				<div class="leo-list-item-pic leo-list-item-2-pic">
+					<img src="https://gitee.com/Addiction/simple_collection/raw/master/images/gs.png" onerror="imgerrorfun();" ></div>
+				<div class="leo-list-item-txt">
+					<span class="leo-list-item-title leo-ellipsis">甘肃卫视</span></div>
+			</li>
+			<li class="leo-list-item-2" onclick="openWin('http://ivi.bupt.edu.cn/hls/bttv.m3u8')">
+				<div class="leo-list-item-pic leo-list-item-2-pic">
+					<img src="../images/bj.png" onerror="imgerrorfun();" ></div>
+				<div class="leo-list-item-txt">
+					<span class="leo-list-item-title leo-ellipsis">兵团卫视</span></div>
+			</li>
+			<li class="leo-list-item-2" onclick="openWin('http://ivi.bupt.edu.cn/hls/lytv.m3u8')">
+				<div class="leo-list-item-pic leo-list-item-2-pic">
+					<img src="../images/bj.png" onerror="imgerrorfun();" ></div>
+				<div class="leo-list-item-txt">
+					<span class="leo-list-item-title leo-ellipsis">海南卫视</span></div>
+			</li>
+		</ul>
+	</div>
+</div>
+<!--轮播-->
+<div class="tab_css" id="tab3_content">
+	<div class="leo-list-body" id="content" id="tvlist3" style="margin-top:50px;">
+		<ul class="leo-list-item">
+			<li class="leo-list-item-2" onclick="openWin('http://tx.hls.huya.com/huyalive/30765679-2478268764-10644083292078342144-2847699106-10057-A-0-1.m3u8')">
+				<div class="leo-list-item-pic leo-list-item-2-pic">
+					<img src="../images/cctv1.png" onerror="imgerrorfun();" >
+					<div class="leo-list-item-tips leo-bg-color-o ">高清</div>
+				</div>
+				<div class="leo-list-item-txt">
+					<span class="leo-list-item-title leo-ellipsis">科幻电影</span></div>
+			</li>
+			<li class="leo-list-item-2" onclick="openWin('http://tx.hls.huya.com/huyalive/94525224-2460685722-10568564701724147712-2789253838-10057-A-0-1.m3u8')">
+				<div class="leo-list-item-pic leo-list-item-2-pic">
+					<img src="../images/cctv2.png" onerror="imgerrorfun();" ></div>
+				<div class="leo-list-item-txt">
+					<span class="leo-list-item-title leo-ellipsis">成龙电影</span></div>
+			</li>
+			<li class="leo-list-item-2" onclick="openWin('http://aldirect.hls.huya.com/huyalive/94525224-2460686034-10568566041753944064-2789274542-10057-A-0-1_1200.m3u8')">
+				<div class="leo-list-item-pic leo-list-item-2-pic">
+					<img src="../images/cctv2.png" onerror="imgerrorfun();" ></div>
+				<div class="leo-list-item-txt">
+					<span class="leo-list-item-title leo-ellipsis">林正英电影</span></div>
+			</li>
+			<li class="leo-list-item-2" onclick="openWin('http://tx.hls.huya.com/huyalive/30765679-2504742278-10757786168918540288-3049003128-10057-A-0-1.m3u8')">
+				<div class="leo-list-item-pic leo-list-item-2-pic">
+					<img src="../images/cctv2.png" onerror="imgerrorfun();" ></div>
+				<div class="leo-list-item-txt">
+					<span class="leo-list-item-title leo-ellipsis">漫威电影</span></div>
+			</li>
+			<li class="leo-list-item-2" onclick="openWin('https://aldirect.hls.huya.com/huyalive/30765679-2523417602-10837996074740744192-2847699224-10057-A-0-1_1200.m3u8')">
+				<div class="leo-list-item-pic leo-list-item-2-pic">
+					<img src="../images/cctv2.png" onerror="imgerrorfun();" ></div>
+				<div class="leo-list-item-txt">
+					<span class="leo-list-item-title leo-ellipsis">荒野求生</span></div>
+			</li>
+			<li class="leo-list-item-2" onclick="openWin('https://aldirect.hls.huya.com/huyalive/29106097-2689406818-11550914328949424128-2789274560-10057-A-1525417691-1_1200.m3u8')">
+				<div class="leo-list-item-pic leo-list-item-2-pic">
+					<img src="../images/cctv2.png" onerror="imgerrorfun();" ></div>
+				<div class="leo-list-item-txt">
+					<span class="leo-list-item-title leo-ellipsis">动画电影</span></div>
+			</li>
+			<li class="leo-list-item-2" onclick="openWin('https://aldirect.hls.huya.com/huyalive/29106097-2689281338-11550375396453122048-2777038134-10057-A-0-1_1200.m3u8')">
+				<div class="leo-list-item-pic leo-list-item-2-pic">
+					<img src="../images/cctv2.png" onerror="imgerrorfun();" ></div>
+				<div class="leo-list-item-txt">
+					<span class="leo-list-item-title leo-ellipsis">春晚小品</span></div>
+			</li>
+			<li class="leo-list-item-2" onclick="openWin('https://aldirect.hls.huya.com/huyalive/94525224-2679664054-11509069476196777984-2847687532-10057-A-0-1_1200.m3u8')">
+				<div class="leo-list-item-pic leo-list-item-2-pic">
+					<img src="../images/cctv2.png" onerror="imgerrorfun();" ></div>
+				<div class="leo-list-item-txt">
+					<span class="leo-list-item-title leo-ellipsis">猫和老鼠</span></div>
+			</li>
+			<li class="leo-list-item-2" onclick="openWin('https://aldirect.hls.huya.com/huyalive/28466698-2689661530-11552008308659322880-3049003102-10057-A-0-1_1200.m3u8')">
+				<div class="leo-list-item-pic leo-list-item-2-pic">
+					<img src="../images/cctv2.png" onerror="imgerrorfun();" ></div>
+				<div class="leo-list-item-txt">
+					<span class="leo-list-item-title leo-ellipsis">宫崎骏动画</span></div>
+			</li>
+			<li class="leo-list-item-2" onclick="openWin('https://aldirect.hls.huya.com/huyalive/29169025-2686220742-11537230236726853632-3048959612-10057-A-1524131613-1_1200.m3u8')">
+				<div class="leo-list-item-pic leo-list-item-2-pic">
+					<img src="../images/cctv2.png" onerror="imgerrorfun();" ></div>
+				<div class="leo-list-item-txt">
+					<span class="leo-list-item-title leo-ellipsis">哆啦A梦</span></div>
+			</li>
+			<li class="leo-list-item-2" onclick="openWin('https://aldirect.hls.huya.com/huyalive/29169025-2686220626-11537229738510647296-2847699128-10057-A-0-1_1200.m3u8')">
+				<div class="leo-list-item-pic leo-list-item-2-pic">
+					<img src="../images/cctv2.png" onerror="imgerrorfun();" ></div>
+				<div class="leo-list-item-txt">
+					<span class="leo-list-item-title leo-ellipsis">成龙历险记</span></div>
+			</li>
+			<li class="leo-list-item-2" onclick="openWin('https://aldirect.hls.huya.com/huyalive/29169025-2686220986-11537231284698873856-2847687616-10057-A-0-1_1200.m3u8')">
+				<div class="leo-list-item-pic leo-list-item-2-pic">
+					<img src="../images/cctv2.png" onerror="imgerrorfun();" ></div>
+				<div class="leo-list-item-txt">
+					<span class="leo-list-item-title leo-ellipsis">动画佳作</span></div>
+			</li>
+		</ul>
+	</div>
+</div>
